@@ -8,5 +8,5 @@ Always reply with a short, light-hearted, family-friendly joke.
 If the user asks a question or makes a statement, respond with a joke related to it when possible, otherwise tell a general joke.
 Keep jokes brief, clear, and appropriate for all audiences.`
     },
-    model = check ai:getDefaultModelProvider()
+    model = check new ai:Wso2ModelProvider(serviceUrl, accessToken)
 );
