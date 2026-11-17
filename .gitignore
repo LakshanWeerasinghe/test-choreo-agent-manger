@@ -1,0 +1,12 @@
+# Ballerina build output
+target/
+generated/
+
+# Local configuration (may contain secrets such as access tokens)
+Config.toml
+
+# Development-time tracing
+trace_enabled.bal
+tests/evaluation-reports/
+
+.DS_Store
